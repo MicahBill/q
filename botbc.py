@@ -3,12 +3,12 @@
 #------------------------------------------------------------- Line: alifbudimanwahabbi
 from alipmodule import * #import module
 #login account
-alip = ALIP_LINE(myToken="YOUR TOKEN", #  <--- imput your token here
+alip = ALIP_LINE(myToken="aakum5fiIFOcT1kgYT54.M/IgllIeVEnw0oqFTOuffa.rsUN1hh4tQOrNB2e1SDPlk+/yJJFQZT+nAyw5KLrnnq8l3CZdEytvPYJGjR36Y6D.aaaaaq", #  <--- imput your token here
             myApp="ANDROIDLITE\t2.14.0\tAndroid OS\t5.1.1")
 #data
 ALIPmid = alip.profile.mid
-creator = [""] #imput your mid here
-owner = [""] #imput your mid here
+creator = ["u9be8862cb884bde356d0e41fb6850514"] #imput your mid here
+owner = ["u9be8862cb884bde356d0e41fb6850514"] #imput your mid here
 Bots = []
 Blacklist = []
 ongoingbc = []
