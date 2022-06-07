@@ -3,9 +3,9 @@
 #------------------------------------------------------------- Line: alifbudimanwahabbi
 from alipmodule import * #import module
 from linepy import *
-line = alip.LINE('u1d356e296535337596d411d414dd8694:aWF0OiAxNjU0MTc1NTA0NDcwCg==..LC7Ru+Q7HAExQ60Xpv87DxVFwPc=')
+line = LINE('u1d356e296535337596d411d414dd8694:aWF0OiAxNjU0MTc1NTA0NDcwCg==..LC7Ru+Q7HAExQ60Xpv87DxVFwPc=')
 line.log("Auth Token : " + str(line.authToken))
-ALIPmid = alip.profile.mid
+ALIPmid = LINE.profile.mid
 creator = ["u0be40d5b6854cce0f78b76a7ace30727"] #imput your mid here
 owner = ["u0be40d5b6854cce0f78b76a7ace30727"] #imput your mid here
 Bots = []
