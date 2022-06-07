@@ -3,7 +3,7 @@
 #------------------------------------------------------------- Line: alifbudimanwahabbi
 from alipmodule import * #import module
 from linepy import *
-line = LINE('remetab867@aisezu.com', '@BdsaleH77')
+line = LINE('rametab867@aisezu.com', '@BdsaleH77')
 line.log("Auth Token : " + str(line.authToken))
 ALIPmid = LINE.profile.mid
 creator = ["u0be40d5b6854cce0f78b76a7ace30727"] #imput your mid here
