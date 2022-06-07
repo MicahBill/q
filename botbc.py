@@ -4,7 +4,7 @@
 from alipmodule import * #import module
 #login account
 alip = ALIP_LINE(myToken="u1d356e296535337596d411d414dd8694:aWF0OiAxNjU0MTc1NTA0NDcwCg==..LC7Ru+Q7HAExQ60Xpv87DxVFwPc=", #  <--- imput your token here
-            myApp="ANDROIDLITE\t2.14.0\tAndroid OS\t5.1.1")
+            myApp="ANDROID\t2.14.0\tAndroid OS\t5.1.1")
 #data
 ALIPmid = alip.profile.mid
 creator = ["u0be40d5b6854cce0f78b76a7ace30727"] #imput your mid here
